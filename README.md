@@ -1,7 +1,7 @@
 
 # Project Information
 The Stochastic Petri Net Package (SPNP) is an adaptable and versatile modelling tool 
-for the solution of Stochastic Reward Nets. The package has been used by many 
+for the solution of Stochastic Reward Nets (SRNs). The package has been used by many 
 different research facilities and organizations around the world to study and model 
 complex concurrent processes in a real distributed system. However, this popular 
 package can only generate an analytic-numeric solution for the SRN models 

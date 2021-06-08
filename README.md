@@ -1,5 +1,5 @@
 
-# Information
+# Project Information
 The Stochastic Petri Net Package (SPNP) is an adaptable and versatile modelling tool 
 for the solution of Stochastic Reward Nets. The package has been used by many 
 different research facilities and organizations around the world to study and model 
@@ -7,17 +7,17 @@ complex concurrent processes in a real distributed system. However, this popular
 package can only generate an analytic-numeric solution for the SRN models 
 implemented in it, which causes a problem when the state space of the system 
 becomes too large; in which case, only simulation modelling methods are useful. This 
-thesis project provides a solution to this problem by adding discrete-event simulation 
+project provides a solution to this problem by adding discrete-event simulation 
 capabilities to the SRN models implemented in the SPNP package. The simulation 
 methodology is useful in particular, for non-Markovian SRNs. Discrete Event System 
-Specification (DEVS) is the simulation formalism used to reach at this solution. This Github 
+Specification (DEVS) is the simulation formalism used to reach at this solution. The 
 project provides an approach to integrate two systems namely: the SPNP package and 
 the DEVS engine, with discrete-event simulation capabilities. The solution is achieved 
 via the use of a parser that establishes a stable communication between these two 
 systems and initiates simulation for the input SRN models from the SPNP package in 
 the DEVS engine.
 
-# Installation instructions
+# Installation Instructions
 
 ## Prerequisites
 1. Latest MS Visual Studio
@@ -61,5 +61,4 @@ parser.exe <path_to_cspl_file> <path_to_spnp2devs_folder>
 6. Input custom parameters in the “Properties” or leave as is and click on “Run 
 Simulation”
 
-A viewable discrete event simulation output would be generated on the DEVS-Engine GUI. This simulation output could be saved to a file.
-(Run “RESETDEVS” from cmd prompt to reset the DEVS-Engine and repeat the simulation process.)
+A viewable discrete event simulation output would be generated on the DEVS-Engine GUI. This simulation output could be saved to a file. Run “RESETDEVS” from cmd prompt to reset the DEVS-Engine and repeat the simulation process. [Click here](https://github.com/nikhil-jain-k/Thesis-Functionality-Testing-Results) to view the testing results.

@@ -15,7 +15,7 @@ project provides an approach to integrate two systems namely: the SPNP package a
 the DEVS engine, with discrete-event simulation capabilities. The solution is achieved 
 via the use of a parser that establishes a stable communication between these two 
 systems and initiates simulation for the input SRN models from the SPNP package in 
-the DEVS engine.
+the DEVS engine. Request the project report [here](mailto:n.kamal@uq.net.au?subject=[GitHub]%20Thesis%20Project%20Report%20Request).
 
 # Installation Instructions
 

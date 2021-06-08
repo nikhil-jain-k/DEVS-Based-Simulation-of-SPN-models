@@ -24,7 +24,7 @@ the DEVS engine.
 2. Windows OS
 
 ## Installing the SPNP Package
-1. Extract the Spnp-Gui.zip in C:\.
+1. Extract the Spnp-Gui.zip and DEVS-Engine.zip in C:\.
 2. Search for Environmental Variables Dialog in Control Panel.
 3. In the Environment Variables Menu, under “User Variables”, edit “Path”
 variable and add "C:\Spnp-Gui\spnp\bin" (use ';' before adding on a 
